@@ -1,0 +1,22 @@
+Naming Conventions for Raw Bank Dumps
+
+ - In general:
+
+     isp-board_version-mask-bank_dump.xz
+
+   Examples:
+
+     myrepublic-vbnt-l_16.3.7190-2761005-bank_dump.xz
+     comhem-gant-1_15.53.6568-1721005-bank_dump.xz
+
+ - Otherwise, when a custover is defined in /etc/config/versioncusto, use that one in place:
+
+     isp-board_custover-bank_dump.xz
+
+   Examples:
+
+     iiNet:	iinet-vbnt-1_18.3.0157-ver3.2.1-CRF905-bank_dump.xz
+     Telstra:	telstra-vbnt-j_16.3.7413-660-RF-bank_dump.xz
+
+
+Thank you in advance for your cooperation.
